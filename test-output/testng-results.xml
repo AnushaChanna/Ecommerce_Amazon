@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="2" ignored="0" total="16" passed="14" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[testcase is pass > report from Listeners]]>
+    </line>
+    <line>
+      <![CDATA[testcase is pass > report from Listeners]]>
+    </line>
+    <line>
+      <![CDATA[testcase is pass > report from Listeners]]>
+    </line>
+    <line>
+      <![CDATA[testcase is pass > report from Listeners]]>
+    </line>
+    <line>
+      <![CDATA[testcase is pass > report from Listeners]]>
+    </line>
+    <line>
+      <![CDATA[testcase is pass > report from Listeners]]>
+    </line>
+    <line>
+      <![CDATA[testcase is pass > report from Listeners]]>
+    </line>
+    <line>
+      <![CDATA[testcase is pass > report from Listeners]]>
+    </line>
+    <line>
+      <![CDATA[testcase is pass > report from Listeners]]>
+    </line>
+    <line>
+      <![CDATA[testcase is pass > report from Listeners]]>
+    </line>
+    <line>
+      <![CDATA[testcase is pass > report from Listeners]]>
+    </line>
+    <line>
+      <![CDATA[testcase is pass > report from Listeners]]>
+    </line>
+    <line>
+      <![CDATA[testcase is pass > report from Listeners]]>
+    </line>
+    <line>
+      <![CDATA[testcase is pass > report from Listeners]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-09-21T23:31:40 IST" name="Suite" finished-at="2024-09-21T23:38:11 IST" duration-ms="391229">
+    <groups>
+    </groups>
+    <test started-at="2024-09-21T23:31:40 IST" name="Test" finished-at="2024-09-21T23:38:11 IST" duration-ms="391229">
+      <class name="E_commerce_amazon.Testcase2_Login">
+        <test-method is-config="true" signature="amazonlaunch()[pri:0, instance:E_commerce_amazon.Testcase2_Login@5a45133e]" started-at="2024-09-21T23:31:40 IST" name="amazonlaunch" finished-at="2024-09-21T23:31:47 IST" duration-ms="7597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonlaunch -->
+        <test-method signature="login_amazon_valid()[pri:0, instance:E_commerce_amazon.Testcase2_Login@5a45133e]" started-at="2024-09-21T23:31:47 IST" name="login_amazon_valid" finished-at="2024-09-21T23:32:00 IST" duration-ms="12363" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[testcase is pass > report from Listeners]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login_amazon_valid -->
+        <test-method is-config="true" signature="amazonlogout()[pri:0, instance:E_commerce_amazon.Testcase2_Login@5a45133e]" started-at="2024-09-21T23:32:00 IST" name="amazonlogout" finished-at="2024-09-21T23:32:01 IST" duration-ms="299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonlogout -->
+      </class> <!-- E_commerce_amazon.Testcase2_Login -->
+      <class name="E_commerce_amazon.Testcase10_quantity_delete">
+        <test-method is-config="true" signature="amazonlaunch()[pri:0, instance:E_commerce_amazon.Testcase10_quantity_delete@6e6f2380]" started-at="2024-09-21T23:33:49 IST" name="amazonlaunch" finished-at="2024-09-21T23:33:57 IST" duration-ms="8092" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonlaunch -->
+        <test-method signature="verifyingCart()[pri:0, instance:E_commerce_amazon.Testcase10_quantity_delete@6e6f2380]" started-at="2024-09-21T23:33:57 IST" name="verifyingCart" finished-at="2024-09-21T23:34:18 IST" duration-ms="21468" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[testcase is pass > report from Listeners]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyingCart -->
+        <test-method is-config="true" signature="amazonlogout()[pri:0, instance:E_commerce_amazon.Testcase10_quantity_delete@6e6f2380]" started-at="2024-09-21T23:34:19 IST" name="amazonlogout" finished-at="2024-09-21T23:34:19 IST" duration-ms="397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonlogout -->
+      </class> <!-- E_commerce_amazon.Testcase10_quantity_delete -->
+      <class name="E_commerce_amazon.Tescase9_VerifyCart">
+        <test-method is-config="true" signature="amazonlaunch()[pri:0, instance:E_commerce_amazon.Tescase9_VerifyCart@6892b3b6]" started-at="2024-09-21T23:33:30 IST" name="amazonlaunch" finished-at="2024-09-21T23:33:35 IST" duration-ms="4997" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonlaunch -->
+        <test-method signature="verifyingcart()[pri:0, instance:E_commerce_amazon.Tescase9_VerifyCart@6892b3b6]" started-at="2024-09-21T23:33:35 IST" name="verifyingcart" finished-at="2024-09-21T23:33:48 IST" duration-ms="13311" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[testcase is pass > report from Listeners]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyingcart -->
+        <test-method is-config="true" signature="amazonlogout()[pri:0, instance:E_commerce_amazon.Tescase9_VerifyCart@6892b3b6]" started-at="2024-09-21T23:33:48 IST" name="amazonlogout" finished-at="2024-09-21T23:33:49 IST" duration-ms="367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonlogout -->
+      </class> <!-- E_commerce_amazon.Tescase9_VerifyCart -->
+      <class name="E_commerce_amazon.Testcase4_ProfileEdit">
+        <test-method is-config="true" signature="amazonlaunch()[pri:0, instance:E_commerce_amazon.Testcase4_ProfileEdit@1ed4ae0f]" started-at="2024-09-21T23:32:09 IST" name="amazonlaunch" finished-at="2024-09-21T23:32:14 IST" duration-ms="5299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonlaunch -->
+        <test-method signature="EditProfile()[pri:0, instance:E_commerce_amazon.Testcase4_ProfileEdit@1ed4ae0f]" started-at="2024-09-21T23:32:14 IST" name="EditProfile" finished-at="2024-09-21T23:32:30 IST" duration-ms="16101" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[testcase is pass > report from Listeners]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- EditProfile -->
+        <test-method is-config="true" signature="amazonlogout()[pri:0, instance:E_commerce_amazon.Testcase4_ProfileEdit@1ed4ae0f]" started-at="2024-09-21T23:32:31 IST" name="amazonlogout" finished-at="2024-09-21T23:32:31 IST" duration-ms="660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonlogout -->
+      </class> <!-- E_commerce_amazon.Testcase4_ProfileEdit -->
+      <class name="E_commerce_amazon.Testcase6_Filter">
+        <test-method is-config="true" signature="amazonlaunch()[pri:0, instance:E_commerce_amazon.Testcase6_Filter@2a265ea9]" started-at="2024-09-21T23:33:01 IST" name="amazonlaunch" finished-at="2024-09-21T23:33:07 IST" duration-ms="6309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonlaunch -->
+        <test-method signature="productfilter()[pri:0, instance:E_commerce_amazon.Testcase6_Filter@2a265ea9]" started-at="2024-09-21T23:33:07 IST" name="productfilter" finished-at="2024-09-21T23:33:12 IST" duration-ms="4495" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[testcase is pass > report from Listeners]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- productfilter -->
+        <test-method is-config="true" signature="amazonlogout()[pri:0, instance:E_commerce_amazon.Testcase6_Filter@2a265ea9]" started-at="2024-09-21T23:33:12 IST" name="amazonlogout" finished-at="2024-09-21T23:33:13 IST" duration-ms="286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonlogout -->
+      </class> <!-- E_commerce_amazon.Testcase6_Filter -->
+      <class name="E_commerce_amazon.Testcase11_OrderReview">
+        <test-method is-config="true" signature="amazonlaunch()[pri:0, instance:E_commerce_amazon.Testcase11_OrderReview@76a4ebf2]" started-at="2024-09-21T23:34:19 IST" name="amazonlaunch" finished-at="2024-09-21T23:34:23 IST" duration-ms="4547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonlaunch -->
+        <test-method retried="true" signature="FinalReviewOrder()[pri:0, instance:E_commerce_amazon.Testcase11_OrderReview@76a4ebf2]" started-at="2024-09-21T23:34:23 IST" name="FinalReviewOrder" finished-at="2024-09-21T23:34:57 IST" duration-ms="33626" status="SKIP">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//input[@name='ppw-instrumentRowSelection'])[6]"}
+  (Session info: chrome=128.0.6613.139)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [870982096f5000e15596fad520e9e52a, findElement {using=xpath, value=(//input[@name='ppw-instrumentRowSelection'])[6]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.139, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56838}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56838/devtoo..., se:cdpVersion: 128.0.6613.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 870982096f5000e15596fad520e9e52a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//input[@name='ppw-instrumentRowSelection'])[6]"}
+  (Session info: chrome=128.0.6613.139)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [870982096f5000e15596fad520e9e52a, findElement {using=xpath, value=(//input[@name='ppw-instrumentRowSelection'])[6]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.139, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56838}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56838/devtoo..., se:cdpVersion: 128.0.6613.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 870982096f5000e15596fad520e9e52a
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
+at E_commerce_amazon.ReviewOrder_TC11.COD(ReviewOrder_TC11.java:51)
+at E_commerce_amazon.Testcase11_OrderReview.FinalReviewOrder(Testcase11_OrderReview.java:39)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FinalReviewOrder -->
+        <test-method is-config="true" signature="amazonlogout()[pri:0, instance:E_commerce_amazon.Testcase11_OrderReview@76a4ebf2]" started-at="2024-09-21T23:34:57 IST" name="amazonlogout" finished-at="2024-09-21T23:34:58 IST" duration-ms="548" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonlogout -->
+        <test-method is-config="true" signature="amazonlaunch()[pri:0, instance:E_commerce_amazon.Testcase11_OrderReview@76a4ebf2]" started-at="2024-09-21T23:34:58 IST" name="amazonlaunch" finished-at="2024-09-21T23:35:03 IST" duration-ms="4922" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonlaunch -->
+        <test-method retried="true" signature="FinalReviewOrder()[pri:0, instance:E_commerce_amazon.Testcase11_OrderReview@76a4ebf2]" started-at="2024-09-21T23:35:03 IST" name="FinalReviewOrder" finished-at="2024-09-21T23:35:40 IST" duration-ms="37663" status="SKIP">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//input[@name='ppw-instrumentRowSelection'])[6]"}
+  (Session info: chrome=128.0.6613.139)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [72a9119aff2ca915c39dee16cb57a9de, findElement {using=xpath, value=(//input[@name='ppw-instrumentRowSelection'])[6]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.139, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56991}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56991/devtoo..., se:cdpVersion: 128.0.6613.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 72a9119aff2ca915c39dee16cb57a9de]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//input[@name='ppw-instrumentRowSelection'])[6]"}
+  (Session info: chrome=128.0.6613.139)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [72a9119aff2ca915c39dee16cb57a9de, findElement {using=xpath, value=(//input[@name='ppw-instrumentRowSelection'])[6]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.139, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56991}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56991/devtoo..., se:cdpVersion: 128.0.6613.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 72a9119aff2ca915c39dee16cb57a9de
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
+at E_commerce_amazon.ReviewOrder_TC11.COD(ReviewOrder_TC11.java:51)
+at E_commerce_amazon.Testcase11_OrderReview.FinalReviewOrder(Testcase11_OrderReview.java:39)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FinalReviewOrder -->
+        <test-method is-config="true" signature="amazonlogout()[pri:0, instance:E_commerce_amazon.Testcase11_OrderReview@76a4ebf2]" started-at="2024-09-21T23:35:40 IST" name="amazonlogout" finished-at="2024-09-21T23:35:41 IST" duration-ms="616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonlogout -->
+        <test-method is-config="true" signature="amazonlaunch()[pri:0, instance:E_commerce_amazon.Testcase11_OrderReview@76a4ebf2]" started-at="2024-09-21T23:35:41 IST" name="amazonlaunch" finished-at="2024-09-21T23:35:48 IST" duration-ms="6951" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonlaunch -->
+        <test-method signature="FinalReviewOrder()[pri:0, instance:E_commerce_amazon.Testcase11_OrderReview@76a4ebf2]" started-at="2024-09-21T23:35:48 IST" name="FinalReviewOrder" finished-at="2024-09-21T23:36:24 IST" duration-ms="36157" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[testcase is pass > report from Listeners]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FinalReviewOrder -->
+        <test-method is-config="true" signature="amazonlogout()[pri:0, instance:E_commerce_amazon.Testcase11_OrderReview@76a4ebf2]" started-at="2024-09-21T23:36:24 IST" name="amazonlogout" finished-at="2024-09-21T23:36:25 IST" duration-ms="667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonlogout -->
+      </class> <!-- E_commerce_amazon.Testcase11_OrderReview -->
+      <class name="E_commerce_amazon.Testcase5_Search">
+        <test-method is-config="true" signature="amazonlaunch()[pri:0, instance:E_commerce_amazon.Testcase5_Search@54c5a2ff]" started-at="2024-09-21T23:32:31 IST" name="amazonlaunch" finished-at="2024-09-21T23:32:37 IST" duration-ms="6183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonlaunch -->
+        <test-method signature="amazon_Search()[pri:0, instance:E_commerce_amazon.Testcase5_Search@54c5a2ff]" started-at="2024-09-21T23:32:37 IST" name="amazon_Search" finished-at="2024-09-21T23:32:42 IST" duration-ms="4439" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[testcase is pass > report from Listeners]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- amazon_Search -->
+        <test-method is-config="true" signature="amazonlogout()[pri:0, instance:E_commerce_amazon.Testcase5_Search@54c5a2ff]" started-at="2024-09-21T23:32:42 IST" name="amazonlogout" finished-at="2024-09-21T23:32:43 IST" duration-ms="559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonlogout -->
+      </class> <!-- E_commerce_amazon.Testcase5_Search -->
+      <class name="E_commerce_amazon.Testcase_15_AddToCart">
+        <test-method is-config="true" signature="amazonlaunch()[pri:0, instance:E_commerce_amazon.Testcase_15_AddToCart@1530c739]" started-at="2024-09-21T23:37:52 IST" name="amazonlaunch" finished-at="2024-09-21T23:37:58 IST" duration-ms="5784" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonlaunch -->
+        <test-method signature="AddToCartWithouLogin()[pri:0, instance:E_commerce_amazon.Testcase_15_AddToCart@1530c739]" started-at="2024-09-21T23:37:58 IST" name="AddToCartWithouLogin" finished-at="2024-09-21T23:38:10 IST" duration-ms="12415" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[testcase is pass > report from Listeners]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AddToCartWithouLogin -->
+        <test-method is-config="true" signature="amazonlogout()[pri:0, instance:E_commerce_amazon.Testcase_15_AddToCart@1530c739]" started-at="2024-09-21T23:38:11 IST" name="amazonlogout" finished-at="2024-09-21T23:38:11 IST" duration-ms="454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonlogout -->
+      </class> <!-- E_commerce_amazon.Testcase_15_AddToCart -->
+      <class name="E_commerce_amazon.Testcase8_SortingProduct">
+        <test-method is-config="true" signature="amazonlaunch()[pri:0, instance:E_commerce_amazon.Testcase8_SortingProduct@11392934]" started-at="2024-09-21T23:33:13 IST" name="amazonlaunch" finished-at="2024-09-21T23:33:17 IST" duration-ms="4388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonlaunch -->
+        <test-method signature="sorting()[pri:0, instance:E_commerce_amazon.Testcase8_SortingProduct@11392934]" started-at="2024-09-21T23:33:17 IST" name="sorting" finished-at="2024-09-21T23:33:29 IST" duration-ms="12254" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[testcase is pass > report from Listeners]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sorting -->
+        <test-method is-config="true" signature="amazonlogout()[pri:0, instance:E_commerce_amazon.Testcase8_SortingProduct@11392934]" started-at="2024-09-21T23:33:29 IST" name="amazonlogout" finished-at="2024-09-21T23:33:30 IST" duration-ms="336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonlogout -->
+      </class> <!-- E_commerce_amazon.Testcase8_SortingProduct -->
+      <class name="E_commerce_amazon.Testcase12_AllPayMethods">
+        <test-method is-config="true" signature="amazonlaunch()[pri:0, instance:E_commerce_amazon.Testcase12_AllPayMethods@2e8c1c9b]" started-at="2024-09-21T23:36:25 IST" name="amazonlaunch" finished-at="2024-09-21T23:36:31 IST" duration-ms="5857" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonlaunch -->
+        <test-method signature="PaymentRadioButton()[pri:0, instance:E_commerce_amazon.Testcase12_AllPayMethods@2e8c1c9b]" started-at="2024-09-21T23:36:31 IST" name="PaymentRadioButton" finished-at="2024-09-21T23:36:58 IST" duration-ms="26898" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[testcase is pass > report from Listeners]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- PaymentRadioButton -->
+        <test-method is-config="true" signature="amazonlogout()[pri:0, instance:E_commerce_amazon.Testcase12_AllPayMethods@2e8c1c9b]" started-at="2024-09-21T23:36:58 IST" name="amazonlogout" finished-at="2024-09-21T23:36:58 IST" duration-ms="457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonlogout -->
+      </class> <!-- E_commerce_amazon.Testcase12_AllPayMethods -->
+      <class name="E_commerce_amazon.Testcase13_CouponCode">
+        <test-method is-config="true" signature="amazonlaunch()[pri:0, instance:E_commerce_amazon.Testcase13_CouponCode@53fe15ff]" started-at="2024-09-21T23:36:58 IST" name="amazonlaunch" finished-at="2024-09-21T23:37:03 IST" duration-ms="4398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonlaunch -->
+        <test-method signature="ApplyCoupon()[pri:0, instance:E_commerce_amazon.Testcase13_CouponCode@53fe15ff]" started-at="2024-09-21T23:37:03 IST" name="ApplyCoupon" finished-at="2024-09-21T23:37:31 IST" duration-ms="28571" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[testcase is pass > report from Listeners]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ApplyCoupon -->
+        <test-method is-config="true" signature="amazonlogout()[pri:0, instance:E_commerce_amazon.Testcase13_CouponCode@53fe15ff]" started-at="2024-09-21T23:37:32 IST" name="amazonlogout" finished-at="2024-09-21T23:37:32 IST" duration-ms="411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonlogout -->
+      </class> <!-- E_commerce_amazon.Testcase13_CouponCode -->
+      <class name="E_commerce_amazon.Testcase3_LoginIvalid">
+        <test-method is-config="true" signature="amazonlaunch()[pri:0, instance:E_commerce_amazon.Testcase3_LoginIvalid@7526515b]" started-at="2024-09-21T23:32:01 IST" name="amazonlaunch" finished-at="2024-09-21T23:32:05 IST" duration-ms="4353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonlaunch -->
+        <test-method signature="login_amazon_Invalid()[pri:0, instance:E_commerce_amazon.Testcase3_LoginIvalid@7526515b]" started-at="2024-09-21T23:32:05 IST" name="login_amazon_Invalid" finished-at="2024-09-21T23:32:08 IST" duration-ms="2889" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[testcase is pass > report from Listeners]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login_amazon_Invalid -->
+        <test-method is-config="true" signature="amazonlogout()[pri:0, instance:E_commerce_amazon.Testcase3_LoginIvalid@7526515b]" started-at="2024-09-21T23:32:08 IST" name="amazonlogout" finished-at="2024-09-21T23:32:09 IST" duration-ms="475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonlogout -->
+      </class> <!-- E_commerce_amazon.Testcase3_LoginIvalid -->
+      <class name="E_commerce_amazon.Testcase14_RatelastOrder">
+        <test-method is-config="true" signature="amazonlaunch()[pri:0, instance:E_commerce_amazon.Testcase14_RatelastOrder@449a4f23]" started-at="2024-09-21T23:37:32 IST" name="amazonlaunch" finished-at="2024-09-21T23:37:37 IST" duration-ms="4973" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonlaunch -->
+        <test-method signature="RateLastOrder()[pri:0, instance:E_commerce_amazon.Testcase14_RatelastOrder@449a4f23]" started-at="2024-09-21T23:37:37 IST" name="RateLastOrder" finished-at="2024-09-21T23:37:51 IST" duration-ms="14168" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[testcase is pass > report from Listeners]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- RateLastOrder -->
+        <test-method is-config="true" signature="amazonlogout()[pri:0, instance:E_commerce_amazon.Testcase14_RatelastOrder@449a4f23]" started-at="2024-09-21T23:37:51 IST" name="amazonlogout" finished-at="2024-09-21T23:37:52 IST" duration-ms="377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonlogout -->
+      </class> <!-- E_commerce_amazon.Testcase14_RatelastOrder -->
+      <class name="E_commerce_amazon.Testcase7_ProductDetailsPage">
+        <test-method is-config="true" signature="amazonlaunch()[pri:0, instance:E_commerce_amazon.Testcase7_ProductDetailsPage@6d4d66d2]" started-at="2024-09-21T23:32:43 IST" name="amazonlaunch" finished-at="2024-09-21T23:32:47 IST" duration-ms="4531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonlaunch -->
+        <test-method signature="productpagedetails()[pri:0, instance:E_commerce_amazon.Testcase7_ProductDetailsPage@6d4d66d2]" started-at="2024-09-21T23:32:47 IST" name="productpagedetails" finished-at="2024-09-21T23:33:00 IST" duration-ms="12827" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[testcase is pass > report from Listeners]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- productpagedetails -->
+        <test-method is-config="true" signature="amazonlogout()[pri:0, instance:E_commerce_amazon.Testcase7_ProductDetailsPage@6d4d66d2]" started-at="2024-09-21T23:33:01 IST" name="amazonlogout" finished-at="2024-09-21T23:33:01 IST" duration-ms="445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonlogout -->
+      </class> <!-- E_commerce_amazon.Testcase7_ProductDetailsPage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

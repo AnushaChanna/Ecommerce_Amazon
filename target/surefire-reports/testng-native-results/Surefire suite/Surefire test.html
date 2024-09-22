@@ -1,0 +1,530 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>13/1/2</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Sep 21 23:15:00 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>426 seconds (426512 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='E_commerce_amazon.Testcase1_Register.register()'><b>register</b><br>Test class: E_commerce_amazon.Testcase1_Register<br/>
+<a href="#Output-423344137" onClick='toggleBox("Output-423344137", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-423344137" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-423344137">
+testcase is fail > report from Listeners<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;a-alert-content&apos;]/ul/li&quot;}
+  (Session info: chrome=128.0.6613.139)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.23.1&apos;, revision: &apos;656257d8e9&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c750d87274422ca9b57b8919cea34b45, findElement {value=//div[@class=&apos;a-alert-content&apos;]/ul/li, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.139, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54702}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54702/devtoo..., se:cdpVersion: 128.0.6613.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c750d87274422ca9b57b8919cea34b45
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy11.isEnabled(Unknown Source)
+	at E_commerce_amazon.Register_TC1.AlertPopup(Register_TC1.java:91)
+	at E_commerce_amazon.Testcase1_Register.register(Testcase1_Register.java:45)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace423344137", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace423344137'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;a-alert-content&apos;]/ul/li&quot;}
+  (Session info: chrome=128.0.6613.139)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.23.1&apos;, revision: &apos;656257d8e9&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c750d87274422ca9b57b8919cea34b45, findElement {value=//div[@class=&apos;a-alert-content&apos;]/ul/li, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.139, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54702}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54702/devtoo..., se:cdpVersion: 128.0.6613.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c750d87274422ca9b57b8919cea34b45
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy11.isEnabled(Unknown Source)
+	at E_commerce_amazon.Register_TC1.AlertPopup(Register_TC1.java:91)
+	at E_commerce_amazon.Testcase1_Register.register(Testcase1_Register.java:45)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+</pre></div></td>
+<td>14</td>
+<td>E_commerce_amazon.Testcase1_Register@5fa07e12</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='E_commerce_amazon.Testcase2_Login.login_amazon_valid()'><b>login_amazon_valid</b><br>Test class: E_commerce_amazon.Testcase2_Login<br/>
+<a href="#Output-1280512370" onClick='toggleBox("Output-1280512370", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1280512370" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1280512370">
+testcase is pass > report from Listeners<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>E_commerce_amazon.Testcase2_Login@55b53d44</td></tr>
+<tr>
+<td title='E_commerce_amazon.Testcase5_Search.amazon_Search()'><b>amazon_Search</b><br>Test class: E_commerce_amazon.Testcase5_Search<br/>
+<a href="#Output-1337346642" onClick='toggleBox("Output-1337346642", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1337346642" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1337346642">
+testcase is pass > report from Listeners<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>E_commerce_amazon.Testcase5_Search@6a6afff2</td></tr>
+<tr>
+<td title='E_commerce_amazon.Testcase4_ProfileEdit.EditProfile()'><b>EditProfile</b><br>Test class: E_commerce_amazon.Testcase4_ProfileEdit<br/>
+<a href="#Output-665448485" onClick='toggleBox("Output-665448485", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-665448485" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-665448485">
+testcase is pass > report from Listeners<br/>
+</div>
+</td>
+<td></td>
+<td>16</td>
+<td>E_commerce_amazon.Testcase4_ProfileEdit@366647c2</td></tr>
+<tr>
+<td title='E_commerce_amazon.Testcase10_quantity_delete.verifyingCart()'><b>verifyingCart</b><br>Test class: E_commerce_amazon.Testcase10_quantity_delete<br/>
+<a href="#Output-883678948" onClick='toggleBox("Output-883678948", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-883678948" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-883678948">
+testcase is pass > report from Listeners<br/>
+</div>
+</td>
+<td></td>
+<td>19</td>
+<td>E_commerce_amazon.Testcase10_quantity_delete@568ff82</td></tr>
+<tr>
+<td title='E_commerce_amazon.Testcase13_CouponCode.ApplyCoupon()'><b>ApplyCoupon</b><br>Test class: E_commerce_amazon.Testcase13_CouponCode<br/>
+<a href="#Output-222882200" onClick='toggleBox("Output-222882200", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-222882200" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-222882200">
+testcase is pass > report from Listeners<br/>
+</div>
+</td>
+<td></td>
+<td>30</td>
+<td>E_commerce_amazon.Testcase13_CouponCode@3315d2d7</td></tr>
+<tr>
+<td title='E_commerce_amazon.Testcase3_LoginIvalid.login_amazon_Invalid()'><b>login_amazon_Invalid</b><br>Test class: E_commerce_amazon.Testcase3_LoginIvalid<br/>
+<a href="#Output-1935707824" onClick='toggleBox("Output-1935707824", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1935707824" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1935707824">
+testcase is pass > report from Listeners<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>E_commerce_amazon.Testcase3_LoginIvalid@482bce4f</td></tr>
+<tr>
+<td title='E_commerce_amazon.Testcase6_Filter.productfilter()'><b>productfilter</b><br>Test class: E_commerce_amazon.Testcase6_Filter<br/>
+<a href="#Output-541957855" onClick='toggleBox("Output-541957855", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-541957855" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-541957855">
+testcase is pass > report from Listeners<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>E_commerce_amazon.Testcase6_Filter@1649b0e6</td></tr>
+<tr>
+<td title='E_commerce_amazon.Testcase_15_AddToCart.AddToCartWithouLogin()'><b>AddToCartWithouLogin</b><br>Test class: E_commerce_amazon.Testcase_15_AddToCart<br/>
+<a href="#Output-1290584410" onClick='toggleBox("Output-1290584410", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1290584410" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1290584410">
+testcase is pass > report from Listeners<br/>
+</div>
+</td>
+<td></td>
+<td>14</td>
+<td>E_commerce_amazon.Testcase_15_AddToCart@3972a855</td></tr>
+<tr>
+<td title='E_commerce_amazon.Testcase11_OrderReview.FinalReviewOrder()'><b>FinalReviewOrder</b><br>Test class: E_commerce_amazon.Testcase11_OrderReview<br/>
+<a href="#Output-71209097" onClick='toggleBox("Output-71209097", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-71209097" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-71209097">
+testcase is pass > report from Listeners<br/>
+</div>
+</td>
+<td></td>
+<td>38</td>
+<td>E_commerce_amazon.Testcase11_OrderReview@355ce81c</td></tr>
+<tr>
+<td title='E_commerce_amazon.Testcase14_RatelastOrder.RateLastOrder()'><b>RateLastOrder</b><br>Test class: E_commerce_amazon.Testcase14_RatelastOrder<br/>
+<a href="#Output-1887218054" onClick='toggleBox("Output-1887218054", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1887218054" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1887218054">
+testcase is pass > report from Listeners<br/>
+</div>
+</td>
+<td></td>
+<td>18</td>
+<td>E_commerce_amazon.Testcase14_RatelastOrder@d6e7bab</td></tr>
+<tr>
+<td title='E_commerce_amazon.Testcase8_SortingProduct.sorting()'><b>sorting</b><br>Test class: E_commerce_amazon.Testcase8_SortingProduct<br/>
+<a href="#Output-1482694266" onClick='toggleBox("Output-1482694266", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1482694266" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1482694266">
+testcase is pass > report from Listeners<br/>
+</div>
+</td>
+<td></td>
+<td>41</td>
+<td>E_commerce_amazon.Testcase8_SortingProduct@4da4253</td></tr>
+<tr>
+<td title='E_commerce_amazon.Testcase12_AllPayMethods.PaymentRadioButton()'><b>PaymentRadioButton</b><br>Test class: E_commerce_amazon.Testcase12_AllPayMethods<br/>
+<a href="#Output-1408073939" onClick='toggleBox("Output-1408073939", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1408073939" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1408073939">
+testcase is pass > report from Listeners<br/>
+</div>
+</td>
+<td></td>
+<td>28</td>
+<td>E_commerce_amazon.Testcase12_AllPayMethods@29647f75</td></tr>
+<tr>
+<td title='E_commerce_amazon.Testcase7_ProductDetailsPage.productpagedetails()'><b>productpagedetails</b><br>Test class: E_commerce_amazon.Testcase7_ProductDetailsPage<br/>
+<a href="#Output-1835022815" onClick='toggleBox("Output-1835022815", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1835022815" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1835022815">
+testcase is pass > report from Listeners<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>E_commerce_amazon.Testcase7_ProductDetailsPage@865dd6</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='E_commerce_amazon.Testcase11_OrderReview.FinalReviewOrder()'><b>FinalReviewOrder</b><br>Test class: E_commerce_amazon.Testcase11_OrderReview</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//input[@name=&apos;ppw-instrumentRowSelection&apos;])[6]&quot;}
+  (Session info: chrome=128.0.6613.139)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.23.1&apos;, revision: &apos;656257d8e9&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [90889401898b6bbf2481803677e5ce88, findElement {value=(//input[@name=&apos;ppw-instrumentRowSelection&apos;])[6], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.139, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53801}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53801/devtoo..., se:cdpVersion: 128.0.6613.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 90889401898b6bbf2481803677e5ce88
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy11.click(Unknown Source)
+	at E_commerce_amazon.ReviewOrder_TC11.COD(ReviewOrder_TC11.java:51)
+	at E_commerce_amazon.Testcase11_OrderReview.FinalReviewOrder(Testcase11_OrderReview.java:39)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace703440120", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace703440120'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//input[@name=&apos;ppw-instrumentRowSelection&apos;])[6]&quot;}
+  (Session info: chrome=128.0.6613.139)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.23.1&apos;, revision: &apos;656257d8e9&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [90889401898b6bbf2481803677e5ce88, findElement {value=(//input[@name=&apos;ppw-instrumentRowSelection&apos;])[6], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.139, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53801}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53801/devtoo..., se:cdpVersion: 128.0.6613.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 90889401898b6bbf2481803677e5ce88
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy11.click(Unknown Source)
+	at E_commerce_amazon.ReviewOrder_TC11.COD(ReviewOrder_TC11.java:51)
+	at E_commerce_amazon.Testcase11_OrderReview.FinalReviewOrder(Testcase11_OrderReview.java:39)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+</pre></div></td>
+<td>39</td>
+<td>E_commerce_amazon.Testcase11_OrderReview@355ce81c</td></tr>
+<tr>
+<td title='E_commerce_amazon.Testcase12_AllPayMethods.PaymentRadioButton()'><b>PaymentRadioButton</b><br>Test class: E_commerce_amazon.Testcase12_AllPayMethods</td>
+<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;input id=&quot;pp-WQOrFF-137&quot; type=&quot;radio&quot; name=&quot;ppw-instrumentRowSelection&quot; value=&quot;instrumentId=EMI&amp;amp;isExpired=false&amp;amp;paymentMethod=CC&amp;amp;tfxEligible=false&quot; disabled=&quot;&quot;&gt; is not clickable at point (277, 679). Other element would receive the click: &lt;span role=&quot;radio&quot;&gt;...&lt;/span&gt;
+  (Session info: chrome=128.0.6613.139)
+Build info: version: &apos;4.23.1&apos;, revision: &apos;656257d8e9&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f30c629c75e3e2e5979ce8773b582e8b, clickElement {id=f.FE2CB827E040449B45C683C949CF525A.d.B475E59484C6F11F440A44E3F6742F9E.e.133}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.139, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54120}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54120/devtoo..., se:cdpVersion: 128.0.6613.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f30c629c75e3e2e5979ce8773b582e8b)] -&gt; xpath: (//input[@name=&apos;ppw-instrumentRowSelection&apos;])[5]]
+Session ID: f30c629c75e3e2e5979ce8773b582e8b
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy11.click(Unknown Source)
+	at E_commerce_amazon.AllPayMethods_TC12.COD(AllPayMethods_TC12.java:61)
+	at E_commerce_amazon.Testcase12_AllPayMethods.PaymentRadioButton(Testcase12_AllPayMethods.java:56)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 35 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1983063045", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1983063045'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;input id=&quot;pp-WQOrFF-137&quot; type=&quot;radio&quot; name=&quot;ppw-instrumentRowSelection&quot; value=&quot;instrumentId=EMI&amp;amp;isExpired=false&amp;amp;paymentMethod=CC&amp;amp;tfxEligible=false&quot; disabled=&quot;&quot;&gt; is not clickable at point (277, 679). Other element would receive the click: &lt;span role=&quot;radio&quot;&gt;...&lt;/span&gt;
+  (Session info: chrome=128.0.6613.139)
+Build info: version: &apos;4.23.1&apos;, revision: &apos;656257d8e9&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f30c629c75e3e2e5979ce8773b582e8b, clickElement {id=f.FE2CB827E040449B45C683C949CF525A.d.B475E59484C6F11F440A44E3F6742F9E.e.133}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.139, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54120}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54120/devtoo..., se:cdpVersion: 128.0.6613.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f30c629c75e3e2e5979ce8773b582e8b)] -&gt; xpath: (//input[@name=&apos;ppw-instrumentRowSelection&apos;])[5]]
+Session ID: f30c629c75e3e2e5979ce8773b582e8b
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy11.click(Unknown Source)
+	at E_commerce_amazon.AllPayMethods_TC12.COD(AllPayMethods_TC12.java:61)
+	at E_commerce_amazon.Testcase12_AllPayMethods.PaymentRadioButton(Testcase12_AllPayMethods.java:56)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+</pre></div></td>
+<td>28</td>
+<td>E_commerce_amazon.Testcase12_AllPayMethods@29647f75</td></tr>
+</table><p>
+</body>
+</html>

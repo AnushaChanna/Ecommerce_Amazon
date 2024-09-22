@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+       	  <class name="E_commerce_amazon.Testcase2_Login"/>
+          <class name="E_commerce_amazon.Testcase3_LoginIvalid"/>
+          <class name="E_commerce_amazon.Testcase4_ProfileEdit"/>
+          <class name="E_commerce_amazon.Testcase5_Search"/>
+          <class name="E_commerce_amazon.Testcase7_ProductDetailsPage"/>
+          <class name="E_commerce_amazon.Testcase6_Filter"/>
+      	  <class name="E_commerce_amazon.Testcase8_SortingProduct"/>
+          <class name="E_commerce_amazon.Tescase9_VerifyCart"/>
+          <class name="E_commerce_amazon.Testcase10_quantity_delete"/>     
+       	  <class name="E_commerce_amazon.Testcase11_OrderReview"/>
+          <class name="E_commerce_amazon.Testcase12_AllPayMethods"/>
+          <class name="E_commerce_amazon.Testcase13_CouponCode"/>
+          <class name="E_commerce_amazon.Testcase14_RatelastOrder"/>
+          <class name="E_commerce_amazon.Testcase_15_AddToCart"/>    
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
